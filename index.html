@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harper & Ellie Mae — A Christmas Movie</title>
+<meta name="description" content="A magical Christmas experience made especially for Harper & Ellie Mae.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;600;700&family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="intro">
+  <div class="intro-corner a"></div><div class="intro-corner b"></div><div class="intro-corner c"></div><div class="intro-corner d"></div>
+  <div class="intro-logo">Harper <span>&</span> Ellie Mae</div>
+</div>
+
+<div class="snow"></div>
+<div class="top-lights"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+
+<header>
+  <a class="logo" href="#home">Harper <span>&</span> Ellie Mae</a>
+  <nav><a href="#magic">Magic</a><a href="#hampers">Hampers</a><a href="#santa">Santa</a><a href="#letter">Letter</a></nav>
+  <button class="sound" id="soundBtn">🔔 Christmas sound</button>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">✦ Christmas 2026 ✦</p>
+    <h1>Christmas<br><em>magic</em><br>is here.</h1>
+    <p>A sparkling Christmas adventure made especially for two very special girls — Harper & Ellie Mae.</p>
+    <div class="buttons"><a class="primary" href="#santa">Meet Santa <span>→</span></a><a class="under" href="#letter">Read your letter</a></div>
+  </div>
+  <div class="hero-photo">
+    <img src="https://images.pexels.com/photos/1303085/pexels-photo-1303085.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Beautifully wrapped Christmas presents">
+    <div class="photo-glow"></div>
+    <div class="photo-card"><small>FOR HARPER & ELLIE MAE</small><strong>A Christmas<br>to remember.</strong></div>
+  </div>
+  <div class="countdown"><span>COUNTING DOWN TO CHRISTMAS</span><div><b id="days">00</b><small>DAYS</small></div><i>:</i><div><b id="hours">00</b><small>HOURS</small></div><i>:</i><div><b id="minutes">00</b><small>MINUTES</small></div><i>:</i><div><b id="seconds">00</b><small>SECONDS</small></div></div>
+</section>
+
+<section class="movie-break">
+  <div class="movie-stars">✦ ✧ ✦</div>
+  <p>THE NORTH POLE IS CALLING...</p>
+  <h2>Something magical<br>is on its way.</h2>
+</section>
+
+<section id="magic" class="section magic">
+  <div class="heading"><p class="eyebrow">01 / Christmas morning</p><h2>Real moments.<br><em>Real magic.</em></h2><p>Christmas is all about the moments you remember: the rustle of wrapping paper, huge smiles and a room full of sparkle.</p></div>
+  <div class="photo-grid">
+    <figure class="photo big"><img src="https://images.pexels.com/photos/1303085/pexels-photo-1303085.jpeg?auto=compress&cs=tinysrgb&w=1400"><figcaption><small>THE PRESENTS</small><strong>What's inside?</strong></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/1699030/pexels-photo-1699030.jpeg?auto=compress&cs=tinysrgb&w=1000"><figcaption><small>THE LIGHTS</small><strong>Christmas glow.</strong></figcaption></figure>
+    <figure class="photo"><img src="https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&w=1000"><figcaption><small>THE MORNING</small><strong>Ready to unwrap.</strong></figcaption></figure>
+  </div>
+</section>
+
+<section id="hampers" class="section hampers">
+  <div class="heading split"><div><p class="eyebrow">02 / Christmas hampers</p><h2>Big treats.<br><em>Big smiles.</em></h2></div><div class="controls"><button id="prev">←</button><span id="slideNo">01 / 04</span><button id="next">→</button></div></div>
+  <div class="hamper-slider">
+    <article class="hamper active"><div class="hamper-img"><img src="https://images.pexels.com/photos/1303085/pexels-photo-1303085.jpeg?auto=compress&cs=tinysrgb&w=1600"><span>THE COSY ONE</span></div><div><p class="eyebrow">01 — Fireside favourites</p><h3>The Cosy Christmas</h3><p>Festive treats, chocolate, warm drinks and everything you need for a perfect Christmas evening.</p></div></article>
+    <article class="hamper"><div class="hamper-img"><img src="https://images.pexels.com/photos/1028725/pexels-photo-1028725.jpeg?auto=compress&cs=tinysrgb&w=1600"><span>THE JOYFUL ONE</span></div><div><p class="eyebrow">02 — Merry & bright</p><h3>The Christmas Cheer</h3><p>A colourful collection of festive goodies for sharing, laughing and making memories.</p></div></article>
+    <article class="hamper"><div class="hamper-img"><img src="https://images.pexels.com/photos/264507/pexels-photo-264507.jpeg?auto=compress&cs=tinysrgb&w=1600"><span>THE GOLDEN ONE</span></div><div><p class="eyebrow">03 — Wrapped in gold</p><h3>The Christmas Glow</h3><p>A luxurious festive hamper for slow mornings and warm evenings beneath the Christmas lights.</p></div></article>
+    <article class="hamper"><div class="hamper-img"><img src="https://images.pexels.com/photos/1303085/pexels-photo-1303085.jpeg?auto=compress&cs=tinysrgb&w=1600"><span>THE LITTLE ONE</span></div><div><p class="eyebrow">04 — Made for tiny hands</p><h3>The Little Christmas</h3><p>Sweet surprises, colourful presents and plenty of Christmas magic.</p></div></article>
+  </div>
+</section>
+
+<section class="elf-parade">
+  <div class="parade-copy"><p class="eyebrow">A VERY BUSY NORTH POLE</p><h2>Santa's little<br><em>helpers</em></h2><p>They've been wrapping, polishing the sleigh and checking Santa's list all night!</p></div>
+  <div class="elf-cards">
+    <div><img src="https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=900"><b>THE WRAPPERS</b></div>
+    <div><img src="https://images.pexels.com/photos/1707213/pexels-photo-1707213.jpeg?auto=compress&cs=tinysrgb&w=900"><b>THE CHEER CREW</b></div>
+    <div><img src="https://images.pexels.com/photos/5632401/pexels-photo-5632401.jpeg?auto=compress&cs=tinysrgb&w=900"><b>THE GIFT TEAM</b></div>
+  </div>
+</section>
+
+<section id="santa" class="santa-stage">
+  <div class="stage-copy"><p class="eyebrow">03 / ATTENTION HARPER & ELLIE MAE</p><h2>Santa is<br><em>coming!</em></h2><p>Turn your sound on and keep your eyes on the sky...</p><button class="primary big" id="santaAgain">Make Santa fly again →</button></div>
+  <div class="sleigh-scene" id="sleighScene" aria-hidden="true">
+    <div class="cloud c1"></div><div class="cloud c2"></div><div class="moon"></div>
+    <div class="santa-fly">
+      <div class="hoho">HO! HO! HO!</div>
+      <div class="sleigh-img"><img src="https://images.pexels.com/photos/5632399/pexels-photo-5632399.jpeg?auto=compress&cs=tinysrgb&w=1200" alt=""></div>
+      <div class="reindeer">🦌 🦌 🦌 🦌</div>
+      <div class="santa-word">Harper & Ellie Mae!</div>
+    </div>
+  </div>
+</section>
+
+<section class="train">
+  <div class="train-title">ALL ABOARD! <span>🎄</span> CHRISTMAS EXPRESS <span>🎄</span></div>
+  <div class="track"></div>
+  <div class="train-run">
+    <div class="locomotive">🚂</div><div class="car">🧝 <b>HELPERS</b></div><div class="car">🎁 <b>PRESENTS</b></div><div class="car">🍪 <b>TREATS</b></div><div class="car">🧸 <b>TOYS</b></div>
+  </div>
+</section>
+
+<section id="letter" class="letter-section">
+  <div class="letter">
+    <p class="eyebrow">04 / A letter from the North Pole</p>
+    <h2>Dear Harper &<br>Ellie Mae,</h2>
+    <p>Ho ho ho! My little helpers have told me that two very special girls are getting ready for Christmas.</p>
+    <p>I've been checking my list, checking it twice, and the reindeer are practising every night for the big journey.</p>
+    <p><strong>I wish you both a very Happy Christmas.</strong> Be kind, share your smiles, help when you can and remember to be nice — because you definitely don't want to end up on my <em>naughty list!</em></p>
+    <p>Keep looking up at the sky on Christmas Eve. If you hear a very loud <strong>HO HO HO!</strong>, it might just be me flying past.</p>
+    <p class="signature">With Christmas magic,<br><strong>Santa Claus 🎅</strong></p>
+  </div>
+</section>
+
+<section class="final"><p>FOR TWO VERY SPECIAL GIRLS</p><h2>Happy Christmas,<br><em>Harper & Ellie Mae.</em></h2><span>May your Christmas be brighter than the stars.</span></section>
+</main>
+<footer><strong>Harper <span>&</span> Ellie Mae</strong><span>Made with Christmas magic · 2026</span><a href="#home">↑ Back to top</a></footer>
+<div class="toast" id="toast">🔔 Sound is ready — tap the bell to hear Santa!</div>
+<script src="script.js"></script>
+</body>
+</html>
